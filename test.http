@@ -1,0 +1,16 @@
+###
+https://jcy04tx033.execute-api.us-west-2.amazonaws.com/staging/books?isbn=978-1420931693
+
+
+### Error request
+https://jcy04tx033.execute-api.us-west-2.amazonaws.com/staging/books?isbn=foobar
+
+
+###
+https://jcy04tx033.execute-api.us-west-2.amazonaws.com/staging/books
+
+###
+POST https://jcy04tx033.execute-api.us-west-2.amazonaws.com/staging/books HTTP/1.1
+content-type: application/json
+
+{"isbn":"978-0141439587", "title":"Emma", "author": "Jane Austen"}
